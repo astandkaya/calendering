@@ -1,0 +1,9 @@
+parameters:
+    level: 8
+    # phpVersion: 80000
+    paths: 
+        - src
+    checkGenericClassInNonGenericObjectType: false
+    checkMissingIterableValueType: false
+    ignoreErrors:
+        - '#\(\) on Carbon\\CarbonImmutable\|false.#'
